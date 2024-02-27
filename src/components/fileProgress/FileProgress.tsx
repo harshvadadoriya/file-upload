@@ -5,7 +5,7 @@ type TypeFileProgressProps = {
 const FileProgress = ({ isFileLoader }: TypeFileProgressProps) => {
 	return (
 		<>
-			<p>{isFileLoader && 'Loading...'}</p>
+			<h3>{isFileLoader && 'Loading...'}</>
 		</>
 	);
 };
